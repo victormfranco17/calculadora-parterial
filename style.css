@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F4F4F4;
+}
+
+h1 {
+	text-align: center;
+	color: #1551B3;
+}
+
+.form {
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #CCC;
+	max-width: 400px;
+	background-color: #FFF;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #1551B3;
+	color: #FFF;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0A3C8E;
+}
+
+#resultado {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.saludable {
+	background-color: #6CC070;
+}
+
+.prehipertension {
+	background-color: #F9A825;
+}
+
+.hipertensionEtapa1 {
+	background-color: #EF6C00;
+}
+
+.hipertensionEtapa2 {
+	background-color: #B71C1C;
+}
